@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Glove on Fire</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link href="css/lightbox.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Glove on Fire Logo" height="60" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="gallery">
+        <h1>Our Moments</h1>
+
+        <!-- Club Opening -->
+        <h2>Club Opening</h2>
+        <div class="gallery-grid">
+          <a
+            href="images/opening1.jpg"
+            data-lightbox="club-opening"
+            data-title="Ribbon cutting moment"
+          >
+            <img src="images/opening1.jpg" alt="Opening 1" />
+          </a>
+          <a
+            href="images/opening2.jpg"
+            data-lightbox="club-opening"
+            data-title="First group photo"
+          >
+            <img src="images/opening2.jpg" alt="Opening 2" />
+          </a>
+          <a
+            href="images/opening3.jpg"
+            data-lightbox="club-opening"
+            data-title="Inside the new club"
+          >
+            <img src="images/opening3.jpg" alt="Opening 3" />
+          </a>
+        </div>
+
+        <!-- Practice Session -->
+        <h2>Practice Session</h2>
+        <div class="gallery-grid">
+          <video controls width="80%">
+            <source src="videos/video1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <video controls width="80%">
+            <source src="videos/video2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <video controls width="80%">
+            <source src="videos/video3.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Group Shots -->
+        <h2>Group Shots</h2>
+        <div class="gallery-grid">
+          <a
+            href="images/group1.jpg"
+            data-lightbox="group"
+            data-title="Group 1"
+          >
+            <img src="images/group1.jpg" alt="Group 1" />
+          </a>
+          <a href="images/group2.jpg" data-lightbox="v" data-title="Group 2">
+            <img src="images/group2.jpg" alt="Group 2" />
+          </a>
+          <a
+            href="images/group3.jpg"
+            data-lightbox="group"
+            data-title="Group 3"
+          >
+            <img src="images/group3.jpg" alt="Group 3" />
+          </a>
+        </div>
+
+        <!-- Coach in Action -->
+        <h2>PCoach in Action</h2>
+        <div class="gallery-grid">
+          <a
+            href="images/coach1.jpg"
+            data-lightbox="coach"
+            data-title="Coach 1"
+          >
+            <img src="images/coach1.jpg" alt="Group 1" />
+          </a>
+          <a
+            href="images/coach2.jpg"
+            data-lightbox="coach"
+            data-title="Coach 2"
+          >
+            <img src="images/coach2.jpg" alt="Group 2" />
+          </a>
+          <a
+            href="images/coach3.jpg"
+            data-lightbox="coach"
+            data-title="Coach 3"
+          >
+            <img src="images/coach3.jpg" alt="Group 3" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Glove on Fire Boxing Club. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
+  </body>
+</html>
